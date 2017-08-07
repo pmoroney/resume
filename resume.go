@@ -39,7 +39,9 @@ type school struct{}
 // The domain lifecycle management service handles expiration and deletion of domains.
 // This is a vital service since domains typically automatically renew at the registry which can be costly if not deleted on time.
 // It also handles various reconciliations with the registries to verify accurate inventory.
-func NameDotCom() company {}
+func NameDotCom() company {
+	return company{}
+}
 
 // Laser Institute of America, IT Manager: 2006 - 2009
 //
