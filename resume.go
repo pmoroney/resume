@@ -7,6 +7,7 @@
 package resume
 
 const (
+	Name     = "Patrick Moroney"
 	Email    = "pat@pat.email"
 	Phone    = "720.663.0025"
 	Location = "Denver, CO or Remote"
