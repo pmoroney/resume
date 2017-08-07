@@ -1,0 +1,310 @@
+<!--
+	Copyright 2009 The Go Authors. All rights reserved.
+	Use of this source code is governed by a BSD-style
+	license that can be found in the LICENSE file.
+-->
+<!--
+	Note: Static (i.e., not template-generated) href and id
+	attributes start with "pkg-" to make it impossible for
+	them to conflict with generated attributes (some of which
+	correspond to Go identifiers).
+-->
+
+	<script type='text/javascript'>
+	document.ANALYSIS_DATA = ;
+	document.CALLGRAPH = ;
+	</script>
+
+	
+		
+		<div id="short-nav">
+			<dl>
+			<dd><code>import "github.com/pmoroney/resume"</code></dd>
+			</dl>
+			<dl>
+			<dd><a href="#pkg-overview" class="overviewLink">Overview</a></dd>
+			<dd><a href="#pkg-index" class="indexLink">Index</a></dd>
+			
+			
+			</dl>
+		</div>
+		<!-- The package's Name is printed as title by the top-level template -->
+		<div id="pkg-overview" class="toggleVisible">
+			<div class="collapsed">
+				<h2 class="toggleButton" title="Click to show Overview section">Overview ▹</h2>
+			</div>
+			<div class="expanded">
+				<h2 class="toggleButton" title="Click to hide Overview section">Overview ▾</h2>
+				<p>
+Package resume is a résumé formatted as a godoc
+</p>
+<h3 id="hdr-Patrick_Moroney">Patrick Moroney</h3>
+<p>
+Senior Go Developer with extensive experience with network, database, and system administration.
+Specialized knowledge of domain registries and registrars, wireless networks, and laser safety.
+</p>
+
+			</div>
+		</div>
+		
+
+		<div id="pkg-index" class="toggleVisible">
+		<div class="collapsed">
+			<h2 class="toggleButton" title="Click to show Index section">Index ▹</h2>
+		</div>
+		<div class="expanded">
+			<h2 class="toggleButton" title="Click to hide Index section">Index ▾</h2>
+
+		<!-- Table of contents for API; must be named manual-nav to turn off auto nav. -->
+			<div id="manual-nav">
+			<dl>
+			
+				<dd><a href="#pkg-constants">Constants</a></dd>
+			
+			
+			
+				
+				<dd><a href="#NameDotCom">func NameDotCom() company</a></dd>
+			
+			
+				
+				<dd><a href="#LaserInstitute">type LaserInstitute</a></dd>
+				
+				
+			
+				
+				<dd><a href="#PureConnection">type PureConnection</a></dd>
+				
+				
+			
+				
+				<dd><a href="#SelfEmployed">type SelfEmployed</a></dd>
+				
+				
+			
+				
+				<dd><a href="#UniversityOfCentralFlorida">type UniversityOfCentralFlorida</a></dd>
+				
+				
+			
+			
+			</dl>
+			</div><!-- #manual-nav -->
+
+		
+
+		
+			<h4>Package files</h4>
+			<p>
+			<span style="font-size:90%">
+			
+				<a href="/src/github.com/pmoroney/resume/resume.go">resume.go</a>
+			
+			</span>
+			</p>
+		
+		</div><!-- .expanded -->
+		</div><!-- #pkg-index -->
+
+		<div id="pkg-callgraph" class="toggle" style="display: none">
+		<div class="collapsed">
+			<h2 class="toggleButton" title="Click to show Internal Call Graph section">Internal call graph ▹</h2>
+		</div> <!-- .expanded -->
+		<div class="expanded">
+			<h2 class="toggleButton" title="Click to hide Internal Call Graph section">Internal call graph ▾</h2>
+			<p>
+			  In the call graph viewer below, each node
+			  is a function belonging to this package
+			  and its children are the functions it
+			  calls&mdash;perhaps dynamically.
+			</p>
+			<p>
+			  The root nodes are the entry points of the
+			  package: functions that may be called from
+			  outside the package.
+			  There may be non-exported or anonymous
+			  functions among them if they are called
+			  dynamically from another package.
+			</p>
+			<p>
+			  Click a node to visit that function's source code.
+			  From there you can visit its callers by
+			  clicking its declaring <code>func</code>
+			  token.
+			</p>
+			<p>
+			  Functions may be omitted if they were
+			  determined to be unreachable in the
+			  particular programs or tests that were
+			  analyzed.
+			</p>
+			<!-- Zero means show all package entry points. -->
+			<ul style="margin-left: 0.5in" id="callgraph-0" class="treeview"></ul>
+		</div>
+		</div> <!-- #pkg-callgraph -->
+
+		
+			<h2 id="pkg-constants">Constants</h2>
+			
+				
+				<pre>const (
+    <span id="Name">Name</span>     = &#34;Patrick Moroney&#34;
+    <span id="Email">Email</span>    = &#34;pat@pat.email&#34;
+    <span id="Phone">Phone</span>    = &#34;720.663.0025&#34;
+    <span id="Location">Location</span> = &#34;Denver, CO or Remote&#34;
+)</pre>
+			
+		
+		
+		
+			
+			
+			<h2 id="NameDotCom">func <a href="/src/target/resume.go?s=1556:1581#L32">NameDotCom</a>
+				<a class="permalink" href="#NameDotCom">&#xb6;</a>
+			</h2>
+			<pre>func NameDotCom() company</pre>
+			<p>
+Name.com, Sr. Software Engineer: 2011 - Present
+</p>
+<p>
+Designed and implemented many services, including the order processing, domain lifecycle management, and DNS services.
+</p>
+<h3 id="hdr-OrderProcessor">OrderProcessor</h3>
+<p>
+The order processor handles every purchase made at Name.com and processed over $32M in transactions in 2016.
+It integrates with almost every other service and many 3rd party APIs.
+</p>
+<h3 id="hdr-DNS">DNS</h3>
+<p>
+The DNS service hosts over 1 million zones.
+Created a feature to resolve ANAME records into A and AAAA records automatically and keep them updated.
+Designed a system to monitor propagation of updates and verify consistency.
+</p>
+<h3 id="hdr-DomainLifecycleManagement">DomainLifecycleManagement</h3>
+<p>
+The domain lifecycle management service handles expiration and deletion of domains.
+This is a vital service since domains typically automatically renew at the registry which can be costly if not deleted on time.
+It also handles various reconciliations with the registries to verify accurate inventory.
+</p>
+
+			
+			
+
+		
+		
+			
+			
+			<h2 id="LaserInstitute">type <a href="/src/target/resume.go?s=2171:2198#L42">LaserInstitute</a>
+				<a class="permalink" href="#LaserInstitute">&#xb6;</a>
+			</h2>
+			<p>
+Laser Institute of America, IT Manager: 2006 - 2009
+</p>
+<p>
+Managed employees and contractors to meet the IT needs of a scientific non-profit organization.
+Developed a custom web-based customer management database to replace their previous
+database, iMIS. Developed a scientific calculator application that evaluates the
+hazards presented by lasers, based on the ANSI Z136.1 standard. Created a database
+and website for management of scientific conferences. Wrote a content management
+system for the website, allowing the marketing department to edit pages on the fly.
+</p>
+
+			<pre>type LaserInstitute company</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+		
+			
+			
+			<h2 id="PureConnection">type <a href="/src/target/resume.go?s=2530:2557#L49">PureConnection</a>
+				<a class="permalink" href="#PureConnection">&#xb6;</a>
+			</h2>
+			<p>
+Pure Connection, Network Operations Manager: 2000 - 2004
+</p>
+<p>
+Designed, built, and maintained a multihomed wireless network to provide Internet service
+to more then half of Orange County Florida. Wrote a system that implements wireless hot-spots,
+allowing users to only connect to the Internet after paying a small fee.
+</p>
+
+			<pre>type PureConnection company</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+		
+			
+			
+			<h2 id="SelfEmployed">type <a href="/src/target/resume.go?s=2681:2706#L54">SelfEmployed</a>
+				<a class="permalink" href="#SelfEmployed">&#xb6;</a>
+			</h2>
+			<p>
+Self Employed, IT Consultant: 2004 - 2013
+</p>
+<p>
+Clients include Florida Hospital Assoc. and Laser Institute of America
+</p>
+
+			<pre>type SelfEmployed company</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+		
+			
+			
+			<h2 id="UniversityOfCentralFlorida">type <a href="/src/target/resume.go?s=2773:2811#L57">UniversityOfCentralFlorida</a>
+				<a class="permalink" href="#UniversityOfCentralFlorida">&#xb6;</a>
+			</h2>
+			<p>
+B.S. Computational Mathematics, University of Central Florida
+</p>
+
+			<pre>type UniversityOfCentralFlorida school</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+		
+	
+
+	
+
+
+
+
+
