@@ -56,7 +56,7 @@ type LaserInstitute company
 // Pure Connection, Network Operations Manager: 2000 - 2004
 //
 // Designed, built, and maintained a multihomed wireless network to provide Internet service
-// to more then half of Orange County Florida. Wrote a system that implements wireless hot-spots,
+// to more than half of Orange County Florida. Wrote a system that implements wireless hot-spots,
 // allowing users to only connect to the Internet after paying a small fee.
 type PureConnection company
 
