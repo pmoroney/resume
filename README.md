@@ -4,3 +4,5 @@
 [Linkedin](https://www.linkedin.com/in/patrickmoroney/)
 
 [PDF Version](https://github.com/pmoroney/resume/raw/master/Patrick_Moroney.pdf)
+
+[Traditional PDF Version](https://github.com/pmoroney/resume/raw/master/Patrick_Moroney_Traditional.pdf)
